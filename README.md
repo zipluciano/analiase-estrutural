@@ -28,7 +28,7 @@ cd ./analise-estrutural
       Linux - bash | zsh
     </td>
     <td>
-      conda create --name <envname> --file requirements.txt
+      conda create --name <strong>envname</strong> --file requirements.txt
     </td>
   </tr>
   <tr>
@@ -36,7 +36,7 @@ cd ./analise-estrutural
       Windows - PowerShell
     </td>
     <td>
-      conda create --name <envname> --file requirements.txt
+      conda create --name <strong>envname</strong> --file requirements.txt
     </td>
   </tr>
 </table>
@@ -49,7 +49,7 @@ cd ./analise-estrutural
       Linux - bash | zsh
     </td>
     <td>
-      conda activate envname
+      conda activate <strong>envname</strong>
     </td>
   </tr>
   <tr>
@@ -57,7 +57,7 @@ cd ./analise-estrutural
       Windows - PowerShell
     </td>
     <td>
-      conda activate envname
+      conda activate <strong>envname</strong>
     </td>
   </tr>
 </table>
