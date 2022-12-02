@@ -1,0 +1,6 @@
+.venv
+.ipynb_checkpoints
+dimensions_projeto_1.json
+dimensions_projeto_2.json
+*.doc
+*.zip
