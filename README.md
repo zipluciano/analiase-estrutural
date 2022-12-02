@@ -11,13 +11,13 @@ de engenharia.
 ### Clonar o projeto
 
 ```sh
-git clone https://github.com/zipluciano/analise-estrutural-2.git
+git clone https://github.com/zipluciano/analise-estrutural.git
 ```
 
 ### Acessar a raiz
 
 ```sh
-cd ./analise-estrutural-2
+cd ./analise-estrutural
 ```
 
 ### Criar ambiente virtual
@@ -28,7 +28,7 @@ cd ./analise-estrutural-2
       Linux - bash | zsh
     </td>
     <td>
-      python3 -m venv ./.venv
+      conda create --name <strong>envname</strong> --file requirements.txt
     </td>
   </tr>
   <tr>
@@ -36,7 +36,7 @@ cd ./analise-estrutural-2
       Windows - PowerShell
     </td>
     <td>
-      python -m venv .\.venv
+      conda create --name <strong>envname</strong> --file requirements.txt
     </td>
   </tr>
 </table>
@@ -49,7 +49,7 @@ cd ./analise-estrutural-2
       Linux - bash | zsh
     </td>
     <td>
-      source ./.venv/bin/activate
+      conda activate <strong>envname</strong>
     </td>
   </tr>
   <tr>
@@ -57,16 +57,10 @@ cd ./analise-estrutural-2
       Windows - PowerShell
     </td>
     <td>
-      .\.venv\Scripts\Activate.ps1
+      conda activate <strong>envname</strong>
     </td>
   </tr>
 </table>
-
-### Instalar pacotes
-
-```sh
-pip install -r ./requirements.txt
-```
 
 ### Criar base de dados do Projeto - 01
 
@@ -84,7 +78,28 @@ pip install -r ./requirements.txt
       Windows - PowerShell
     </td>
     <td>
-      python ./projeto_1_data.py
+      python .\projeto_1_data.py
+    </td>
+  </tr>
+</table>
+
+### Criar base de dados do Projeto - 02
+
+<table>
+  <tr>
+    <td>
+      Linux - bash | zsh
+    </td>
+    <td>
+      python3 ./src/projeto-2/PerfisLista.py
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Windows - PowerShell
+    </td>
+    <td>
+      python .\src\projeto-2\PerfisLista.py
     </td>
   </tr>
 </table>
@@ -92,5 +107,5 @@ pip install -r ./requirements.txt
 ### Desativar ambiente virtual
 
 ```sh
-deactivate
+conda deactivate
 ```
