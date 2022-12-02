@@ -49,7 +49,7 @@ cd ./analise-estrutural
       Linux - bash | zsh
     </td>
     <td>
-      conda activate <envname>
+      conda activate envname
     </td>
   </tr>
   <tr>
@@ -57,7 +57,7 @@ cd ./analise-estrutural
       Windows - PowerShell
     </td>
     <td>
-      conda activate <envname>
+      conda activate envname
     </td>
   </tr>
 </table>
